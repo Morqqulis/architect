@@ -85,15 +85,14 @@ h6 {
 }
 
 /* Wrapper---------------------------------------------- */
+.loaded body {
+	overflow: visible;
+	touch-action: auto;
+}
 
 .lock body {
 	overflow: hidden;
 	touch-action: none;
-}
-
-.loaded body {
-	overflow: visible;
-	touch-action: auto;
 }
 
 .wrapper {
